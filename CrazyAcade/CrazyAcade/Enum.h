@@ -1,0 +1,74 @@
+#pragma once
+
+namespace OBJID
+{
+	enum ID
+	{
+		BLOCK, ITEM, INVEN, BALLON, STEM,  MONSTER, DART, BOSS, PLAYER, ACTING, SHIELD, AIRPLANE, LOGIN_UI, MENU_UI, MENU_UI2, LOADING_UI, STAGE_UI, MOUSE, END
+	};
+}
+
+namespace PLAYER
+{
+	enum STATE				// 이미지 업로드상태
+	{
+		FRONT, FRONT_NONE, LEFT, LEFT_NONE, RIGHT, RIGHT_NONE, BACK, BACK_NONE, TANKON, OWLON, SPACEON, TURTTLEON, BUBBLE1, BUBBLE2, BUBBLE3, NEEDLE, DIE1, DIE2, WIN, END
+	};
+}
+
+namespace MONSTER
+{
+	enum STATE
+	{
+		FRONT, LEFT, RIGHT, BACK, BUBBLE, NEEDLE, DIE, END
+	};
+}
+
+namespace BOSS
+{
+	enum STATE
+	{
+		FRONT, LEFT, RIGHT, BACK, BEING, SHADOW, ANGER, BUBBLE, DIE, END
+	};
+}
+
+
+namespace BALLON
+{
+	enum DIR				// 밀릴 방향, 던져질 방향
+	{
+		NONE, LEFT, UP, RIGHT, DOWN
+	};
+}
+
+namespace STEM
+{
+	enum DIR				// 물줄기 방향
+	{
+		CENTER, LEFT, UP, RIGHT, DOWN, LEFT_LAST, UP_LAST, RIGHT_LAST, DOWN_LAST
+	};
+}
+
+namespace BLOCK
+{
+	enum PROPERTY			// 블럭 속성
+	{
+		TILE, BASIC, PUSH, STONE, HIDE, THORN, DUNKS, TELEPORT1, TELEPORT2, TELEPORT3, TELEPORT4, WITH, DESTORY
+	};
+	enum DIR
+	{
+		LEFT, RIGHT, UP, DOWN
+	};
+}
+
+namespace ITEM
+{
+	enum PROPERTY			// 아이템 속성
+	{
+		WATER, POWER, ROLLER, GLOVE, DART, FLY, SHOES, NEEDLE, GAS, DEVIL, TIMER, SHIELD, TURTLE, SPACE, OWL , TANK, BANANA, BLACKBALLON, WING, END
+	};
+}
+
+
+
+

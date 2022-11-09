@@ -1,0 +1,10 @@
+﻿SoundMgr.obj : error LNK2019: FMOD_System_Create 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::Initialize(void)" (?Initialize@CSoundMgr@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_System_Init 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::Initialize(void)" (?Initialize@CSoundMgr@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_System_Update 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::LoadSoundFile(void)" (?LoadSoundFile@CSoundMgr@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_System_CreateSound 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::LoadSoundFile(void)" (?LoadSoundFile@CSoundMgr@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_System_PlaySound 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::MyPlaySound(wchar_t *,enum CSoundMgr::CHANNELID)" (?MyPlaySound@CSoundMgr@@QEAAXPEA_WW4CHANNELID@1@@Z) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_Channel_Stop 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::StopAll(void)" (?StopAll@CSoundMgr@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_Channel_IsPlaying 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::MyPlaySound(wchar_t *,enum CSoundMgr::CHANNELID)" (?MyPlaySound@CSoundMgr@@QEAAXPEA_WW4CHANNELID@1@@Z) 함수)에서 확인하지 못했습니다.
+SoundMgr.obj : error LNK2019: FMOD_Channel_SetMode 외부 기호(참조 위치: "public: void __cdecl CSoundMgr::PlayBGM(wchar_t *)" (?PlayBGM@CSoundMgr@@QEAAXPEA_W@Z) 함수)에서 확인하지 못했습니다.
+fmodex_vc.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\Administrator\Desktop\CrazyAcade v9\x64\Debug\CrazyAcade.exe : fatal error LNK1120: 8개의 확인할 수 없는 외부 참조입니다.

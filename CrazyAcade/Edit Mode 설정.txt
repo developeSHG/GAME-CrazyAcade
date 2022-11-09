@@ -1,0 +1,25 @@
+void CMyEdit::Initialize()
+{
+	CObjMgr::Get_Instance()->AddObject(OBJID::PLAYER, CAbstractFactory<CPlayer>::Create());
+	CTileMgr::Get_Instance()->Set_Scene(1);
+	CTileMgr::Get_Instance()->LoadData(1);
+	//CTileMgr::Get_Instance()->Initialize();
+	//for (auto& pObj : *CObjMgr::Get_Instance()->Get_Obj(OBJID::BLOCK))
+	//{
+	//	SCAST<CBlock*>(pObj)->Set_Scene(3);
+	//}
+}
+	
+bool CTileMgr::LoadData(int _iStage)
+{
+		/*  Edit Mode  */
+		dynamic_cast<CBlock*>(pObj)->Set_Option(BLOCK::TILE);
+		/*  Game Mode  */
+		//dynamic_cast<CBlock*>(pObj)->Set_Option(iOption);
+		
+		/*  Edit Mode  */
+		m_vecBlock.emplace_back(pObj);
+		/*  Game Mode  */
+		//if (BLOCK::TILE != iOption && CSceneMgr::SCENEID::SCENE_EDIT != CSceneMgr::Get_Instance()->Get_SceneID())
+		//	CObjMgr::Get_Instance()->AddObject(OBJID::BLOCK, pObj);
+}
