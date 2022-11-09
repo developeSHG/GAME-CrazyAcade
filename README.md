@@ -2,7 +2,9 @@
 [Win API 2D - Individual Project] 크레이지아케이드
 
 동영상(Client)    : https://www.youtube.com/watch?v=_zshmuKgud0
+
 동영상(Tool)      : https://www.youtube.com/watch?v=zNB4gyvFYEs
+
 장르              : 액션
 날짜              : 2019.05.01 ~ 2019.05.15
 인원              : 1명
