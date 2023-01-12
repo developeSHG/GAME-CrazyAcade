@@ -1,21 +1,13 @@
 # GAME-CrazyAcade
 [Win API 2D - Individual Project] 크레이지아케이드
 
-
 동영상(Client)    : https://www.youtube.com/watch?v=_zshmuKgud0
-
-동영상(Tool)      : https://www.youtube.com/watch?v=zNB4gyvFYEs
-
-장르              : 액션
-
-날짜              : 2019.05.01 ~ 2019.05.15
-
-인원              : 1명
-
-개발 환경         : Visual Studio 2015 (x64)
-
-개발 언어 및 도구  : C++, Windows API
-
+<br/>동영상(Tool)      : https://www.youtube.com/watch?v=zNB4gyvFYEs
+<br/>장르              : 액션
+<br/>날짜              : 2019.05.01 ~ 2019.05.15
+<br/>인원              : 1명
+<br/>개발 환경         : Visual Studio 2015 (x64)
+<br/>개발 언어 및 도구  : C++, Windows API
 
 ======================================================================
 
