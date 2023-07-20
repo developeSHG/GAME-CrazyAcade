@@ -1,4 +1,6 @@
 # GAME-CrazyAcade
+
+<img width="100%" src="https://user-images.githubusercontent.com/79896868/254759707-29c14636-2697-46f0-b9ff-9195384f5367.png"/>
 <h3>[Win API 2D - Individual Project] 크레이지아케이드</h3>
 
 <b>동영상(Client)</b>    : https://www.youtube.com/watch?v=_zshmuKgud0
